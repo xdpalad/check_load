@@ -30,4 +30,3 @@ crontab -l | grep -v '@reboot cd /path/to/check_load && nohup ./check_load "6686
 (crontab -l 2>/dev/null; echo "@reboot cd /path/to/check_load && nohup ./check_load "6686453731:AAFPO256rO1DAYh06spHW8WdlH4DM72yNQM" "785707791,1126262393" &> /path/to/check_load/output.log &") | crontab -
 
 tail -f /root/check_load/output.log
-
